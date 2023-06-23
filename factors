@@ -51,7 +51,7 @@ if __name__ == "__main__":
         num = int(line.strip())
         factors = factorize(num)
         if factors:
-               print(f"{num}={factors[0]}*{factors[1]}")
+             print(f"{num}={factors[0]}*{factors[1]}")
 
 
         '''If the elapsed time exceeds 5 seconds,
